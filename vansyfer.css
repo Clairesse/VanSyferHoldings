@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  /* TopBar */
+  .topbar {
+    text-align: center;
+      background-color: rgba(140, 132, 245, 0.203);
+    padding: 10px;
+    color: rgb(5, 5, 191);
+    font-size: 21px;
+  }
+  /* TopBar End */
+  
+  /* NavBar */
+  
+  nav {
+      background-color: rgba(140, 132, 245, 0.203);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+  }
+  
+  nav img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .nav-links {
+    padding: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    nav img{
+      display: none;
+    }
+    .nav-links{
+      margin: 10px 0;
+      width: 100%;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 500px){
+  
+    .nav-links{
+      border: 1px solid red;
+      padding: 0px;
+    }
+  }
+  
+  /* NavBar End */
+  
+  /* Banner */
+  
+  .banner {
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    padding-top: 22%;
+  }
+  
+  /* Banner End */
+  
+  /* Vision Statement */
+  
+  .vision {
+    text-align: center;
+    background-color: rgba(140, 132, 245, 0.203);
+    padding: 60px 30px;
+  }
+  .vision hr {
+    margin-top: 20px;
+  }
+  
+  .vision p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  .vision ul {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  .vision li {
+    margin-top: 15px;
+  }
+  
+  /* About Us */
+  
+  .about-us {
+    text-align: center;
+      background-color: rgba(140, 132, 245, 0.203);
+    padding: 60px 10px;
+  }
+  
+  .about-us hr {
+    margin-top: 20px;
+  }
+  
+  .about-us p {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .about-us ul {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  .about-us li {
+    margin-top: 15px;
+  }
+  
+  
+  /* About Us End */
+  
+  /* Our Services */
+  .services {
+    text-align: center;
+      background-color: rgba(140, 132, 245, 0.203);
+    padding: 60px 10px;
+  }
+  
+  .services hr {
+    margin-top: 20px;
+  }
+  
+  .services p {
+    font-size: 22px;
+    margin-top: 40px;
+    line-height: 10px;
+  }
+  .services ul {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  .services li {
+    margin-top: 25px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+   .services ul{
+    font-size: 20px;
+   }
+  }
+  /* Our Services End */
+  
+  /* Our Work */
+  
+  .our-work {
+    text-align: center;
+      background-color: rgba(140, 132, 245, 0.203);
+    padding: 60px 10px;
+  }
+  .our-work hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .our-work p {
+    font-size: 23px;
+    line-height: 40px;
+    font-weight: bolder;
+  }
+  
+  .work-img {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  .work-img img {
+    width: 22.7%;
+    height: 22%;
+    margin: 0 19px;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .work-img{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+    .work-img img{
+      width: 50%;
+      height: 600px;
+      margin: 15px 0;
+    }
+  }
+  @media only screen and (max-width: 900px){
+    .work-img img{
+      width: 50%;
+      height: 300px;
+      margin: 15px 0;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .our-work p {
+     font-size: 18px;
+    }
+   }
+  /* Our Work End */
+  
+  /* footer */
+  
+  footer{
+        background-color: rgba(140, 132, 245, 0.203);
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  
+  .address{
+      text-align: center;
+      align-items: center;
+      align-self: center;
+  }
+  .address svg{
+      position: relative;
+      top: 10px;
+  }
+  .contact-details svg{
+      position: relative;
+      top: 5px;
+  }
+  .gmaillink{
+      color: black;
+      text-decoration: none;
+  }
+  .gmaillink:hover{
+      color: blue;
+  }
+  .gmail svg{
+      position: relative;
+      top: 7px;
+  }
+  .company-info h2{
+      margin: 15px 0;
+      font-size: 20px;
+  }
+  
+  .company-social{ 
+      align-items: bottom;
+      align-self: baseline;
+      margin-top: 12%;
+  }
+  
+  .company-social svg{
+    margin: 0 5px
+  }
+  @media only screen and (max-width: 700px) {
+    
+    footer{
+      display: block;
+    }
+    .company-info h2{
+      margin: 0;
+      text-align: left;
+    }
+    .company-social{
+      margin-top: 2%;
+    }
+   }

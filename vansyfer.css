@@ -151,6 +151,28 @@
     font-size: 30px;
   }
   
+  @media only screen and (max-width: 1229px){  
+    .imgs{
+    display: block;
+    padding: 50px 0;
+    }
+    .cicil{
+    padding: 30px 0;
+    }
+  }
+  @media only screen and (max-width: 577px){  
+    .verna img{
+      width: 50%;
+      height: 50%;
+    }
+    .cicil img{
+      width: 50%;
+      height: 50%;
+    }
+    .img-text{
+      font-size: 13px;
+    }
+  }
   /* About Us End */
   
   /* Our Services */

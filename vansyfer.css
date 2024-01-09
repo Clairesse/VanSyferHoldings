@@ -111,7 +111,7 @@
   .about-us {
     text-align: center;
       background-color: rgba(140, 132, 245, 0.203);
-    padding: 60px 10px;
+    padding: 0px 10px;
   }
   
   .about-us hr {
@@ -129,7 +129,27 @@
   .about-us li {
     margin-top: 15px;
   }
-  
+  .imgs{
+    display: flex;
+    margin-top: 50px;
+    padding: 0 90px;
+    justify-content: space-between;
+  }
+  .imgs img{
+    width: 500px;
+    height: 65%;
+  }
+  .img-text{
+    margin-top: 20px;
+  }
+  .img-text h3{
+    margin-top: 12px;
+    font-size: 23px;
+  }
+  .img-text h2{
+    margin-top: 5px;
+    font-size: 30px;
+  }
   
   /* About Us End */
   
@@ -137,7 +157,7 @@
   .services {
     text-align: center;
       background-color: rgba(140, 132, 245, 0.203);
-    padding: 60px 10px;
+    padding: 0px 10px;
   }
   
   .services hr {
@@ -169,7 +189,7 @@
   .our-work {
     text-align: center;
       background-color: rgba(140, 132, 245, 0.203);
-    padding: 60px 10px;
+    padding: 80px 10px;
   }
   .our-work hr {
     margin-top: 20px;
